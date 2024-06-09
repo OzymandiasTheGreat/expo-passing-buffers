@@ -1,7 +1,3 @@
-export type ChangeEventPayload = {
-  value: string;
-};
-
-export type BufferExampleViewProps = {
-  name: string;
+export type PongEventPayload = {
+  value: Uint8Array
 };
